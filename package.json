@@ -1,0 +1,22 @@
+{
+  "name": "sergi-apps",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "dev:idomenjo": "npm run dev --workspace=apps/idomenjo",
+    "dev:ireustech": "npm run dev --workspace=apps/ireustech",
+    "dev:inote": "npm run dev --workspace=apps/inote",
+    "dev:itrade": "npm run dev --workspace=apps/itrade",
+    "dev:iweb": "npm run dev --workspace=apps/iweb",
+    "build": "npm run build --workspaces --if-present",
+    "build:idomenjo": "npm run build --workspace=apps/idomenjo",
+    "build:ireustech": "npm run build --workspace=apps/ireustech",
+    "build:inote": "npm run build --workspace=apps/inote",
+    "build:itrade": "npm run build --workspace=apps/itrade",
+    "build:iweb": "npm run build --workspace=apps/iweb"
+  }
+}
