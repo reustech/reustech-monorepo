@@ -9,7 +9,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
     volumes:
-      - ./sevices/imongodb/data/db:/data/db
+      - ./services/imongodb/data/db:/data/db
     networks:
       - app-network
     healthcheck:
